@@ -1,0 +1,22 @@
+---
+name: Babel Preset
+menu: Tools
+route: /tools/babel-preset
+---
+
+import packageInfo from './package.json';
+import { PackageInfo } from '@docs';
+
+# Babel Preset
+
+<PackageInfo />
+
+## Options
+
+- `useEmotion`: add emotion plugin
+
+```json
+{
+  "presets": [["@demo/babel-preset", { "useEmotion": true }]]
+}
+```
